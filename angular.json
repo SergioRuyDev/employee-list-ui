@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "employee-list-ui"
+    }
+  },
+  "defaultProject": "employee-list-ui",
+  "cli": {
+    "analytics": "6d3a4194-fcdc-4a0f-9191-da9441fc1653"
+  }
 }
