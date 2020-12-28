@@ -3,13 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { Employee } from './employee';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EmployeeService {
 
-  private baseURL = "https://ruy-employee-list.herokuapp.com/api/v1/employees";
+  private baseURL = environment.baseUrl;
 
   constructor(private httpClient: HttpClient) { }
 
