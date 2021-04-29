@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://ruy-employee-list.herokuapp.com'
+  baseUrl: 'http://ruyemployeelist-env.eba-kpvmt3c7.us-east-2.elasticbeanstalk.com/api/v1/employees'
 };
