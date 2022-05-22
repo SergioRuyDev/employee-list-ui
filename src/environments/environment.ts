@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://ruyemployeelist-env.eba-kpvmt3c7.us-east-2.elasticbeanstalk.com/api/v1/employees'
+  baseUrl: 'https://list-employee-sergio.herokuapp.com/api/v1/employees'
 };
 
 /*
