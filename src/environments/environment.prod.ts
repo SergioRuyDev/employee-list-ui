@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://list-employee-sergio.herokuapp.com/api/v1/employees'
+  baseUrl: 'https://employee-list-api-production.up.railway.app/api/v1/employees'
 };
